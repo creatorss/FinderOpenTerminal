@@ -55,6 +55,7 @@
 		DD28020D21275F7100C7F995 /* Open Terminal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Open Terminal.entitlements"; sourceTree = "<group>"; };
 		DD4195681C7CAB4C00330823 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		EDC39F851DC3FC09008978D0 /* SwiftySystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftySystem.swift; sourceTree = "<group>"; };
+		F02489762361E50A003AB782 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,9 +207,11 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 				fr,
+				"zh-Hans",
 			);
 			mainGroup = DD4195221C7CAA6900330823;
 			productRefGroup = DD41952C1C7CAA6900330823 /* Products */;
@@ -275,6 +278,7 @@
 			children = (
 				DD28020721275B2500C7F995 /* en */,
 				DD28020921275B3300C7F995 /* fr */,
+				F02489762361E50A003AB782 /* zh-Hans */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -290,7 +294,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = MK2RQZD575;
+				DEVELOPMENT_TEAM = RLXTC3J5N5;
 				INFOPLIST_FILE = "Open Terminal/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -312,7 +316,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = MK2RQZD575;
+				DEVELOPMENT_TEAM = RLXTC3J5N5;
 				INFOPLIST_FILE = "Open Terminal/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -334,7 +338,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = MK2RQZD575;
+				DEVELOPMENT_TEAM = RLXTC3J5N5;
 				INFOPLIST_FILE = "Open Terminal Finder Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -358,7 +362,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = MK2RQZD575;
+				DEVELOPMENT_TEAM = RLXTC3J5N5;
 				INFOPLIST_FILE = "Open Terminal Finder Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
